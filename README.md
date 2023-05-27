@@ -59,6 +59,10 @@ The two numerical variables that are important while doing dynamic masking is `m
 
 While using the dynamic masking procedures, the only plotting boolean values that should be set to TRUE in `index-mp-dynMasks.py`are `makeFullAnimation` and the appropriate weight plotting boolean.
 
+#### Future Work with Masks
+
+When doing the moving band masking procedure, the width of the bands were measured by eye. Numerical programs should be written to calculate what the width of the band is at each screen distance. 
+
 ### Repository Structure 
 
 The `master` branch contains the most up-to-date code.
